@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © MageWorx. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="cms_page_load_after">
+        <observer name="mageworx_seocrosslinks_gql_modify_page_data" instance="MageWorx\SeoCrossLinks\Model\Observer\AddCrosslinksToPageObserver" />
+    </event>
+</config>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © MageWorx. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <type name="Magento\CatalogGraphQl\Model\Resolver\Product\CanonicalUrl">
+        <plugin name="mageworx_seobase_modify_product_canonical_url" type="MageWorx\SeoBaseGraphQl\Plugin\ModifyProductCanonicalUrlPlugin" sortOrder="1" />
+    </type>
+
+    <type name="ScandiPWA\CatalogGraphQl\Model\Resolver\Category\CanonicalUrl">
+        <plugin name="mageworx_seobase_modify_category_canonical_url" type="MageWorx\SeoBaseGraphQl\Plugin\ModifyCategoryCanonicalUrlPlugin" sortOrder="1" />
+    </type>
+
+</config>

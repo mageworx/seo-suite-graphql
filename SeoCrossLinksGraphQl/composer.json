@@ -1,0 +1,24 @@
+{
+  "name": "mageworx/module-seocrosslinks-graph-ql",
+  "description": "N/A",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "102.0.*",
+    "mageworx/module-seocrosslinks": ">= 2.4.8",
+    "magento/module-cms-graph-ql": ">= 100.3.1 <104",
+    "magento/module-catalog-graph-ql": ">= 100.3.1 <104"
+  },
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MageWorx\\SeoCrossLinksGraphQl\\": ""
+    }
+  },
+  "version": "1.0.0"
+}

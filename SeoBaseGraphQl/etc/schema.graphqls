@@ -1,0 +1,11 @@
+interface ProductInterface {
+    meta_robots: String @doc(description: "Meta Robots")
+}
+
+interface CategoryInterface {
+    meta_robots: String @doc(description: "Meta Robots")
+}
+
+type CmsPage {
+    meta_robots: String @doc(description: "Meta Robots")
+}
